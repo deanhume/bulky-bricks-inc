@@ -10,12 +10,18 @@
     "grunt-processhtml": "*",
     "grunt-svgmin": "*",
     "imagemin-mozjpeg": "^5.1.0",
-    "grunt-critical-css": "*"
+    "grunt-critical-css": "*",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "grunt-contrib-htmlmin": "^0.5.0",
     "grunt-critical": "^0.1.7",
     "grunt-timer": "^0.6.0",
     "grunt-webp": "0.0.4"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
