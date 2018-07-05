@@ -31,3 +31,6 @@ patch:
         patched: '2018-06-27T23:25:01.220Z'
     - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
         patched: '2018-06-27T23:25:01.220Z'
+  'npm:http-signature:20150122':
+    - grunt-critical-css > critical-css > phantomjs > request > http-signature:
+        patched: '2018-07-04T23:14:16.068Z'
