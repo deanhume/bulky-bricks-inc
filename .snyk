@@ -34,3 +34,8 @@ patch:
   'npm:http-signature:20150122':
     - grunt-critical-css > critical-css > phantomjs > request > http-signature:
         patched: '2018-07-04T23:14:16.068Z'
+  'npm:minimatch:20160620':
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-24T23:45:02.949Z'
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-24T23:45:02.949Z'
