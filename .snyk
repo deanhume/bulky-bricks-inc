@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,8 @@ patch:
   'npm:tough-cookie:20170905':
     - grunt-pagespeed > psi > googleapis > request > tough-cookie:
         patched: '2018-11-21T23:14:33.650Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T03:49:26.682Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T03:49:26.682Z'
