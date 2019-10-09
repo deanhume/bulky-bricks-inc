@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,8 @@ patch:
   'npm:tough-cookie:20170905':
     - grunt-pagespeed > psi > googleapis > request > tough-cookie:
         patched: '2018-11-21T23:14:33.650Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-09T03:49:16.191Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-09T03:49:16.191Z'
