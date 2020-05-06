@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,24 @@ patch:
   'npm:tough-cookie:20170905':
     - grunt-pagespeed > psi > googleapis > request > tough-cookie:
         patched: '2018-11-21T23:14:33.650Z'
+  SNYK-JS-LODASH-567746:
+    - grunt-processhtml > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-pagespeed > psi > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-htmlmin > grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-htmlmin > grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-htmlmin > grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-pagespeed > psi > googleapis > request > form-data > async > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
+    - grunt-pagespeed > psi > googleapis > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-06T03:50:05.214Z'
