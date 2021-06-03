@@ -9,7 +9,7 @@
     "grunt-pagespeed": "*",
     "grunt-processhtml": "*",
     "grunt-svgmin": "*",
-    "imagemin-mozjpeg": "^5.1.0",
+    "imagemin-mozjpeg": "^8.0.0",
     "grunt-critical-css": "*",
     "snyk": "^1.110.1"
   },
