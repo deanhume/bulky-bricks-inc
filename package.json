@@ -3,7 +3,7 @@
     "grunt": "*",
     "grunt-cli": "*",
     "grunt-contrib-cssmin": "*",
-    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-imagemin": "^2.0.0",
     "grunt-contrib-uglify": "*",
     "grunt-htmlmin": "*",
     "grunt-pagespeed": "*",
